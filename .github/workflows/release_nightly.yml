@@ -20,7 +20,7 @@ jobs:
       tag_name: nightly-${{ steps.current_time_dashes.outputs.formattedTime }}
 
     # Only run the scheduled workflows on the main repo.
-    if: github.repository == 'ruffle-rs/ruffle'
+    if: github.repository == 'chunky-lemon-milk/ruffle'
 
     steps:
       - uses: actions/checkout@v3
